@@ -1,0 +1,31 @@
+nav {
+  background-color: rgb(206, 75, 75);
+  color: rgb(240, 248, 255);
+  width: 100%;
+  left: 0;
+}
+
+.left-menu a {
+  color: rgb(240, 248, 255);
+  font-size: 14px;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.material-icons {
+  font-size: 20px;
+}
+
+.left-menu a:hover {
+  text-decoration: none;
+}
+
+nav h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 14px;
+}
