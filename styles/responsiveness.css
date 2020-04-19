@@ -10,6 +10,10 @@
   .out-side-btn {
     width: 31%;
   }
+
+  .rento-result {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -50,10 +54,6 @@
 
   .label {
     margin-left: 5%;
-  }
-
-  body {
-    overflow: hidden;
   }
 
   .out-side-btn {
