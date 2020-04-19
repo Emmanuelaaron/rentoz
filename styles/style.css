@@ -33,5 +33,38 @@ h2 {
 .background-image {
   background-image: url("https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
   background-position: cover;
-  height: 40vw;
+  height: 32vw;
+}
+
+h3 {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.form {
+  width: 100%;
+  background-color: rgba(238, 203, 203, 0.7);
+  border-radius: 11px;
+}
+
+.btn-primary {
+  background-color: rgb(206, 75, 75);
+}
+
+input {
+  width: 70%;
+  height: 40px;
+}
+
+button {
+  width: 17%;
+}
+
+#main-section {
+  width: 59%;
+  padding-top: 10%;
+}
+
+.out-side-btn {
+  width: 11%;
 }
