@@ -1,0 +1,62 @@
+@media screen and (max-width: 768px) {
+  .background-image {
+    height: 50%;
+  }
+
+  button {
+    width: 20%;
+  }
+
+  .out-side-btn {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .h3-rento {
+    display: block;
+    width: 95%;
+    margin-top: 109px;
+    margin-left: 10px;
+    text-align: center;
+  }
+
+  #main-section {
+    width: 100%;
+  }
+
+  .background-image {
+    background-position: 0% -211px;
+    height: 256vw;
+  }
+
+  .form {
+    width: 95%;
+  }
+
+  .form-div {
+    margin-left: 39%;
+  }
+
+  input {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  button {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .label {
+    margin-left: 5%;
+  }
+
+  body {
+    overflow: hidden;
+  }
+
+  .out-side-btn {
+    width: 49%;
+  }
+}

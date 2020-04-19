@@ -31,8 +31,10 @@ h2 {
 }
 
 .background-image {
-  background-image: url("https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-  background-position: cover;
+  background-image: url("https://images.unsplash.com/photo-1551524164-687a55dd1126?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-position: 50% 95%;
+  background-size: cover;
   height: 32vw;
 }
 
@@ -43,7 +45,7 @@ h3 {
 
 .form {
   width: 100%;
-  background-color: rgba(238, 203, 203, 0.7);
+  background-color: rgba(160, 146, 146, 0.7);
   border-radius: 11px;
 }
 
@@ -66,5 +68,15 @@ button {
 }
 
 .out-side-btn {
-  width: 11%;
+  width: 19%;
+}
+
+#image-search {
+  font-size: 33px;
+}
+
+#lower-h2 {
+  font-size: 21px;
+  text-transform: uppercase;
+  color: rgb(206, 75, 75);
 }
