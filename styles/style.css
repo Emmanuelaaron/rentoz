@@ -67,11 +67,14 @@ button {
   padding-top: 10%;
 }
 
-.out-side-btn {
+.outsidebtn {
   width: 19%;
 }
 
-#image-search {
+#image-search,
+#img-search,
+#image-searchh,
+#image-searchhh {
   font-size: 33px;
 }
 
