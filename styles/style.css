@@ -3,6 +3,7 @@ nav {
   color: rgb(240, 248, 255);
   width: 100%;
   left: 0;
+  z-index: 2000;
 }
 
 .left-menu a {
@@ -134,4 +135,39 @@ select {
 
 .results-div {
   width: 90%;
+}
+
+#details {
+  width: 80%;
+  box-shadow: 2px 2px 5px 2px #8888;
+}
+
+.detail-button {
+  width: 88px;
+  background-color: #007bff;
+}
+
+.details-div {
+  width: 80%;
+}
+
+.more-details {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-weight: bolder;
+}
+
+.details-main {
+  margin-top: 14%;
+}
+
+.mapouter {
+  position: relative;
+  height: 500px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
 }
