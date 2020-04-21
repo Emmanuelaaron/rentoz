@@ -166,6 +166,13 @@ select {
   margin-top: 14%;
 }
 
+iframe {
+  border: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+}
+
 .mapouter {
   position: relative;
   height: 500px;
