@@ -20,6 +20,17 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .search-btn,
+  input {
+    width: 100%;
+  }
+
+  .form-div {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .h3-rento {
     display: block;
@@ -42,12 +53,7 @@
     width: 95%;
   }
 
-  .form-div {
-    margin-left: 39%;
-  }
-
   input {
-    width: 90%;
     margin: 0 auto;
   }
 
