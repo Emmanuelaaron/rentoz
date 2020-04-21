@@ -14,6 +14,10 @@
   .rento-result {
     font-size: 16px;
   }
+
+  .details-main {
+    margin-top: 24%;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -58,5 +62,9 @@
 
   .out-side-btn {
     width: 49%;
+  }
+
+  .details-main {
+    margin-top: 53%;
   }
 }

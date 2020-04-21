@@ -171,3 +171,19 @@ select {
   background: none !important;
   height: 500px;
 }
+
+.map-direction {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: rgb(206, 75, 75);
+}
+
+#direction,
+#icon-detail {
+  font-size: 25px;
+}
+
+.h2-details {
+  font-size: 26px;
+  color: rgb(206, 75, 75);
+}
