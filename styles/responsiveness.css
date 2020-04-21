@@ -1,3 +1,13 @@
+@media screen and (max-width: 1024px) {
+  .background-image {
+    height: 48vw;
+  }
+
+  .out-side-btn {
+    width: 34%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .background-image {
     height: 50%;
