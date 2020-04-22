@@ -41,6 +41,18 @@
   }
 }
 
+@media screen and (max-width: 706px) {
+  .out-side-btn {
+    width: 44%;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .out-side-btn {
+    width: 67%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .h3-rento {
     display: block;
@@ -50,7 +62,7 @@
     text-align: center;
   }
 
-  #main-section {
+  .main-section {
     width: 100%;
   }
 

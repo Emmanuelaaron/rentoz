@@ -1,4 +1,4 @@
-#Rentoz
+# Rentoz
 
 > This is a CSS and HTML curriculum Microverse Captstone Project. The objective of this project is to create a website using the design provided [here](https://www.behance.net/gallery/25563385/PatashuleKE) with whatever content you desire. I chose to come up with a representation of houses for rent.
 
@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://emmanuelaaron.github.io/rentoz/)
+[Live Demo Link](https://emmanuelaaron.github.io/rentoz/index.html)
 
 
 ## Getting Started
