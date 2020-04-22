@@ -37,7 +37,7 @@ h2 {
 }
 
 .background-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("https://lh3.googleusercontent.com/proxy/Zv-29Rx4KkNin0lGPoFza_-HROMU_aTsiVgIoDcFUiESbEnLpPguxJ1moohE7g9GvYgYLdz6OADWktLv8zAQUEDRv36--o0LRvk");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("../images/ethan-hoover-bEE8NLLPvhw-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -68,7 +68,7 @@ button {
   width: 17%;
 }
 
-#main-section {
+.main-section {
   width: 59%;
   padding-top: 10%;
 }
@@ -77,17 +77,8 @@ button {
   width: 19%;
 }
 
-#image-search,
-#img-search,
-#image-searchh,
-#image-searchhh {
+.my-icon {
   font-size: 33px;
-}
-
-#lower-h2 {
-  font-size: 21px;
-  text-transform: uppercase;
-  color: rgb(206, 75, 75);
 }
 
 .option-selections {
@@ -96,14 +87,14 @@ button {
   flex-direction: row;
 }
 
-#result-button {
+.result-button {
   width: 100px;
   height: 36px;
   margin-top: 30px;
   background-color: royalblue;
 }
 
-#filter-button {
+.filter-button {
   width: 119px;
   height: 36px;
   margin-top: 30px;
@@ -125,7 +116,7 @@ select {
   color: rgb(77, 77, 77);
 }
 
-#search-results h2 {
+.search-results h2 {
   font-size: 25px;
   color: rgb(165, 164, 164);
 }
@@ -142,7 +133,7 @@ select {
   width: 90%;
 }
 
-#details {
+.details {
   width: 80%;
   box-shadow: 2px 2px 5px 2px #8888;
 }
@@ -190,8 +181,8 @@ iframe {
   color: rgb(206, 75, 75);
 }
 
-#direction,
-#icon-detail {
+.direction,
+.icon-detail {
   font-size: 25px;
 }
 
