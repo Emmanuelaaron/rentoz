@@ -25,6 +25,11 @@ nav {
   color: aliceblue;
 }
 
+.navbar-header h1 a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
 .left-menu a:hover {
   text-decoration: none;
 }
