@@ -14,20 +14,19 @@
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/responsiveness.css">
 </head>
-
 <body>
   <header class="row">
     <nav class="navbar navbar-default position-fixed">
-      <div class="container-fluid d-flex justify-content-between flex-column flex-md-row ml-md-4 nav-mobile">
-        <div class="navbar-header d-flex align-items-center">
+      <div class="container-fluid ml-md-4 nav-mobile nav-header-fl">
+        <div class="navbar-header">
           <i class="material-icons">location_on</i>
           <h1>rentozi</h1>
         </div>
-        <div class="d-flex mr-md-4 left-menu">
-          <a href="result-page.html" class="d-flex"><i class="material-icons">search</i><span class="d-none d-md-block">Apartments</span></a>
-          <a href="#" class="d-flex ml-4 ml-md-3"><i class="material-icons">perm_identity</i><span class="d-none d-md-block">ABOUT</span></a>
-          <a href="#" class="d-flex ml-4 ml-md-3"><i class="material-icons rotate">wifi</i><span class="d-none d-md-block">BLOG</span></a>
-          <a href="#" class="d-flex ml-4 ml-md-3"><i class="material-icons">menu</i><span class="d-none d-md-block">MORE</span></a>
+        <div class="mr-md-4 left-menu">
+          <a href="result-page.html"><i class="material-icons">search</i><span class="d-none d-md-block">Apartments</span></a>
+          <a href="#" class="ml-4 ml-md-3"><i class="material-icons">perm_identity</i><span class="d-none d-md-block">ABOUT</span></a>
+          <a href="#" class="ml-4 ml-md-3"><i class="material-icons rotate">wifi</i><span class="d-none d-md-block">BLOG</span></a>
+          <a href="#" class="ml-4 ml-md-3"><i class="material-icons">menu</i><span class="d-none d-md-block">MORE</span></a>
         </div>
       </div>
     </nav>
@@ -39,7 +38,7 @@
         <form action="/" class="mx-auto pt-3 pt-md-5 pb-2 form">
           <div class="form-div ml-0 ml-md-5 pb-3 mx-auto">
             <label class="label" for="search">SEARCH BY KEY WORD</label>
-            <div class="d-flex flex-column flex-md-row ">
+            <div class="flex-column flex-md-row search-div">
               <input type="search" class="border-0 mx-auto mx-md-0" id="search" name="search">
               <button class="btn btn-primary rounded-0 border-0 mt-3 mt-md-0 search-btn mx-md-0">SEARCH</button>
             </div>
@@ -52,7 +51,7 @@
     </div>
     <section id="ways" class="row">
       <h2 class="col-12 text-center mt-5 mb-5" id="lower-h2">Rentozi works in 4 different ways</h2>
-      <article class="col-lg-6 d-flex flex-column align-items-center">
+      <article class="col-lg-6 index-article">
         <i class="my-icon material-icons mb-4">image_search</i>
         <h2 class="mb-4">1-SEARCH</h2>
         <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -61,7 +60,7 @@
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
           est laborum</p>
       </article>
-      <article class="col-lg-6 d-flex flex-column align-items-center">
+      <article class="col-lg-6 index-article">
         <i class="my-icon material-icons mb-4">terrain</i>
         <h2 class="mb-4">2-LOCATE</h2>
         <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -70,7 +69,7 @@
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
           est laborum</p>
       </article>
-      <article class="col-lg-6 d-flex flex-column align-items-center mt-3 pt-4">
+      <article class="col-lg-6 mt-3 pt-4 index-article">
         <i class="my-icon material-icons mb-4">turned_in</i>
         <h2 class="mb-4">3-APPLY</h2>
         <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -79,7 +78,7 @@
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
           est laborum</p>
       </article>
-      <article class="col-lg-6 d-flex flex-column align-items-center mt-3 pt-4">
+      <article class="col-lg-6 mt-3 pt-4 index-article">
         <i class="my-icon material-icons mb-4">beach_access</i>
         <h2 class="mb-4">4-RELAX</h2>
         <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore

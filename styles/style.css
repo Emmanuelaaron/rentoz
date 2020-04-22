@@ -7,6 +7,7 @@ nav {
 }
 
 .left-menu a {
+  display: flex;
   color: rgb(240, 248, 255);
   font-size: 14px;
 }
@@ -83,8 +84,9 @@ button {
 
 .option-selections {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .result-button {
@@ -193,4 +195,39 @@ iframe {
 
 .out-side-btn {
   width: 21%;
+}
+
+.nav-header-fl {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.navbar-header,
+.filter-button,
+.h2-details,
+.click-more,
+.map-direction {
+  display: flex;
+  align-items: center;
+}
+
+.left-menu {
+  display: flex;
+}
+
+.search-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.index-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apply-btn-div {
+  display: flex;
+  justify-content: flex-end;
 }
