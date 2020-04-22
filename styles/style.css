@@ -246,3 +246,7 @@ iframe {
   text-transform: uppercase;
   color: rgb(206, 75, 75);
 }
+
+body {
+  overflow-x: hidden;
+}
